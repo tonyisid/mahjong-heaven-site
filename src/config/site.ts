@@ -4,14 +4,14 @@ export const siteConfig = {
   description: "Experience the ultimate tile-matching puzzle game! Match, sort, and merge mahjong tiles in this relaxing zen-themed game. Perfect for puzzle lovers of all ages.",
   
   hero: {
-    badge: "✨ Available on Google Play",
+    badge: "✨ Available on iOS & Android",
     title: "Mahjong Heaven",
     titleHighlight: "Sort & Merge",
     subtitle: "Your Daily Zen Escape",
     description: "Immerse yourself in a beautiful world of mahjong tiles. Match 3 identical tiles to clear the board. Hundreds of handcrafted levels await in this relaxing puzzle adventure.",
     cta: { 
       text: "🎮 Download Free", 
-      href: "https://play.google.com/store/apps/details?id=com.mahjong.sort.master.puzzle" 
+      href: "https://apps.apple.com/us/app/mahjong-heaven-sort-puzzle/id6759160900" 
     },
     features: [
       "🧩 Easy to Learn, Hard to Master",
@@ -103,6 +103,7 @@ export const siteConfig = {
   
   download: {
     googlePlay: "https://play.google.com/store/apps/details?id=com.mahjong.sort.master.puzzle",
+    appStore: "https://apps.apple.com/us/app/mahjong-heaven-sort-puzzle/id6759160900",
     description: "Download now and start your relaxing puzzle journey!"
   },
   

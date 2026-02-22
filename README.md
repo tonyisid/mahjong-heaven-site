@@ -7,6 +7,12 @@
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript&logoColor=white)
 
+## 🌐 在线访问
+
+**网站地址**: https://tonyisid.github.io/mahjong-heaven-site/
+
+**游戏下载**: [Google Play](https://play.google.com/store/apps/details?id=com.mahjong.sort.master.puzzle)
+
 ## ✨ 特性
 
 - 🎨 **东方禅意美学** - 翡翠绿 + 金色配色方案
@@ -14,7 +20,7 @@
 - ⚡ **极速加载** - Vite构建，性能优化
 - 🎭 **流畅动画** - 滚动淡入、浮动效果、渐变文字
 - 🎯 **组件化架构** - 易于维护和扩展
-- 🚀 **自动部署** - GitHub Actions CI/CD
+- 🚀 **自动部署** - GitHub Pages + gh-pages
 
 ## 🏗️ 技术栈
 
@@ -22,13 +28,13 @@
 - **构建工具**: Vite 5
 - **样式**: Tailwind CSS 3
 - **动画**: CSS Animations + Intersection Observer
-- **部署**: GitHub Pages
+- **部署**: GitHub Pages (gh-pages分支)
 
 ## 📦 安装
 
 ```bash
 # 克隆仓库
-git clone https://github.com/YOUR_USERNAME/mahjong-heaven-site.git
+git clone https://github.com/tonyisid/mahjong-heaven-site.git
 cd mahjong-heaven-site
 
 # 安装依赖
@@ -40,28 +46,13 @@ npm run dev
 
 ## 🚀 部署
 
-### GitHub Pages (推荐)
-
-1. Fork 或克隆此仓库
-2. 在 GitHub 仓库设置中启用 Pages：
-   - Settings → Pages
-   - Source: 选择 `GitHub Actions`
-3. 推送代码到 main 分支
-4. 自动部署完成！
-
-详细说明请查看 [DEPLOY.md](./DEPLOY.md)
-
-### 其他平台
-
 ```bash
 # 构建生产版本
 npm run build
 
-# 预览构建结果
-npm run preview
+# 部署到 GitHub Pages
+npm run deploy
 ```
-
-构建产物在 `dist/` 目录，可部署到任何静态托管平台。
 
 ## 📂 项目结构
 
@@ -69,7 +60,7 @@ npm run preview
 mahjong-heaven-site/
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml          # GitHub Actions 部署配置
+│       └── deploy.yml          # GitHub Actions 部署配置（备用）
 ├── public/
 │   └── mahjong-icon.svg       # 网站图标
 ├── src/
@@ -136,11 +127,8 @@ export const siteConfig = {
 
 ## 🌐 在线预览
 
-部署后可通过以下地址访问：
-
-```
-https://YOUR_USERNAME.github.io/mahjong-heaven-site/
-```
+- **GitHub**: https://github.com/tonyisid/mahjong-heaven-site
+- **网站**: https://tonyisid.github.io/mahjong-heaven-site/
 
 ## 📝 许可证
 

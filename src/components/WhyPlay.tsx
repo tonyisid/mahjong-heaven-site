@@ -24,24 +24,24 @@ export default function WhyPlay() {
 
   return (
     <section ref={sectionRef} className="py-24 px-6 bg-dark-bg relative overflow-hidden">
-      {/* 背景装饰 */}
+      {/* Background decoration */}
       <div className="absolute inset-0">
         <div className="grid-overlay opacity-50"></div>
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        {/* 标题 */}
+        {/* Title */}
         <div className="text-center mb-16 fade-in">
           <h2 className="section-title text-4xl md:text-5xl font-bold mb-4">
-            <span className="text-white">为什么选择</span>
+            <span className="text-white">Why Choose</span>
             <span className="gradient-text"> Mahjong Heaven?</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            这不仅仅是一个游戏，更是一种生活方式
+            More than just a game, it's a lifestyle
           </p>
         </div>
 
-        {/* 原因卡片 */}
+        {/* Reason cards */}
         <div className="grid md:grid-cols-2 gap-8">
           {siteConfig.whyPlay.map((reason, index) => (
             <div 
@@ -62,13 +62,13 @@ export default function WhyPlay() {
           ))}
         </div>
 
-        {/* 引用 */}
+        {/* Testimonial */}
         <div className="mt-16 text-center fade-in">
           <div className="inline-block bg-gradient-to-r from-emerald-900/30 to-amber-900/30 rounded-3xl p-8 border border-emerald-500/20">
             <p className="text-2xl md:text-3xl font-bold text-white mb-4">
-              "每天晚上玩一局，已经成为我的放松仪式了。"
+              "Playing a game every night has become my relaxation ritual."
             </p>
-            <p className="text-gray-400">— 来自忠实玩家的评价</p>
+            <p className="text-gray-400">— From a loyal player</p>
           </div>
         </div>
       </div>

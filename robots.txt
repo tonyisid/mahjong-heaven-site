@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tonyisid.github.io/mahjong-heaven-site/sitemap.xml
